@@ -1,0 +1,40 @@
+public class traductordigitos {
+    public static void main(String[] args) {
+        int numero;
+
+        System.out.print("Indica digito 0-9: ");
+        numero = Integer.parseInt(System.console().readLine());
+
+        switch (numero) {
+            case 0:
+            System.out.println("Zero");
+            break;
+            case 1:
+            System.out.println("One");
+            break;
+            case 2:
+            System.out.println("Two");
+            break;
+            case 3:
+            System.out.println("Three");
+            break;
+            case 4:
+            System.out.println("Four");
+            break;
+            case 5:
+            System.out.println("Five");
+            break;
+            case 6:
+            System.out.println("Six");
+            break;
+            case 7:
+            System.out.println("Seven");
+            break;
+            case 8:
+            System.out.println("Eigch");
+            break;
+            case 9:
+            System.out.println("Nine");
+        }
+    }
+}

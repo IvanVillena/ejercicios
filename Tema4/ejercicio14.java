@@ -11,16 +11,16 @@ public class ejercicio14 {
 		num = s.nextInt();
 		
 		if ( num%5 == 0 ) {
-		div5 = " sí ";
+			div5 = " sí ";
 		} else {
-		div5 = " no ";
+			div5 = " no ";
 		}
 		
 		if ( num%2 == 0 ) {
-		par = " sí ";
+			par = " sí ";
 		} else {
-		par = " no ";
+			par = " no ";
 		}
-		System.out.println("\nEl número " + num + div5 + "divisible entre 5 y" + par + "es par.");
-	}
+			System.out.println("\nEl número " + num + div5 + "divisible entre 5 y" + par + "es par.");
+	}	
 }

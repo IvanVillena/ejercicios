@@ -1,4 +1,4 @@
-public class ejercicio08 {
+public class ejercicio07 {
     public static void main(String[] args) {
         char letra1 = 'p' ;
         char letra2 = 'e' ;

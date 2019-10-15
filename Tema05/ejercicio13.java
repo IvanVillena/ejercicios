@@ -4,24 +4,24 @@ public class ejercicio13 {
 	Scanner s = new Scanner(System.in);
 		int i = 0;
 		int num;
-		int par = 0;
-		int impar = 0;
+		int negativo = 0;
+		int positivo = 0;
 		
 		while ( i != 10 ) {
 			
 			System.out.print("\nIntroduce un numero: ");
 				num = s.nextInt();
-			if ( ( num%2 ) == 0 ) {
+			if ( num >= 0) {
 				
-				par++;
+				positivo++;
 
 			} else {
 				
-				impar++;
+				negativo++;
 				
 			} 
 			i++;
 		}
-		System.out.println("Hay un total de n " + par + " numeros pares y " + impar + " numeros impares.");
+		System.out.println("Hay un total de n " + positivo + " numeros positivos y " + negativo + " numeros negativos.");
 	}
 }
